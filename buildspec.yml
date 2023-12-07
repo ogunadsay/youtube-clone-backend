@@ -14,8 +14,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-  exclude:
-    - node_modules/
-    - .git/
-    - .gitignore
-    - buildspec.yml
