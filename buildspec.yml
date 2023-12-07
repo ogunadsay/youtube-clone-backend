@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+      
+  run:
+    commands:
+      - npm install
+      - npm start
+
+artifacts:
+  files:
+    - '**/*'
+  exclude:
+    - node_modules/
+    - .git/
+    - .gitignore
+    - buildspec.yml

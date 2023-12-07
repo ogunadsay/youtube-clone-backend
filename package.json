@@ -2,9 +2,10 @@
   "name": "youtube-clone-backend",
   "version": "1.0.0",
   "description": "Simple CRUD application for videos",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ogun",
