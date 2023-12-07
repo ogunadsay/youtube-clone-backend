@@ -4,10 +4,10 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-      
-  run:
-    commands:
+  pre-build:
       - npm install
+  build:
+    commands:
       - npm start
 
 artifacts:
